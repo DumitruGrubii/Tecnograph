@@ -13467,7 +13467,7 @@ a.contacts__item_text--04 {
 
 @media (min-width: 993px) {
   .page_wrapper--presentation-navbar {
-    padding-top: 40px; } }
+    padding-top: 0px; } }
 
 .navigation_bar {
   position: fixed;
