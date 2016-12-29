@@ -7,20 +7,59 @@
     <!--the must have assets-->
     <link rel="stylesheet" href="css/main.css">
     <!--place your Google Maps API key here:-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfh_GTuZk_GKM0YwY-RQ7OBs6sAMcBGUg" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUUNhFv2T4o1G397Ykf975-hdxbtmyUO0" defer></script>
     <script src="js/main.js" defer></script>
     <!--page title-->
-    <title>Phoenix Bootstrap UI kit</title>
+    <title>Tecnograph</title>
   </head>
   <body>
     <main class="page_wrapper page_wrapper--presentation-navbar">
+
+      <!-- == START OF HEADER 01 ==-->
+      <nav class="header header--01">
+        <div class="container header__container">
+          <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
+          <div class="header__center_box">
+              <div class="container header__container">
+                <div class="header__right_box">
+                  <button type="button" data-menu-index="02--desktop" class="header__burger_button header__burger_button--white js-open-menu"></button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <!-- == END OF HEADER 01 ==-->
+      <div class="container cover__slider__arrows_box">
+        <button type="button" class="cover__slider__arrow cover__slider__arrow--left js-slider-prev-arrow"></button>
+        <button type="button" class="cover__slider__arrow cover__slider__arrow--right js-slider-next-arrow"></button>
+      </div>
+      <div data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: true, &quot;prevArrow&quot; : &quot;.js-slider-prev-arrow&quot;, &quot;nextArrow&quot;: &quot;.js-slider-next-arrow&quot;}" class="cover__slider__content_box js-slider">
+        <div style="background-image: url(img/bg/bg--skaters-bright.jpg)" class="cover cover--12">
+          <div class="container">
+            <div class="cover__content_box--12"><a class="cover__tag_button--12 button button--white button--extra-small">new</a>
+              <h2 class="cover__title--12"><span class="cover__title_text--12">A brand new way to excite&nbsp;<br>your audience</span></h2>
+              <div class="cover__description_box--12"><span class="cover__description_text--12">Who can study the satori and blessing of a monkey if he has the playful milk of the visitor?</span></div><a href="#" class="button button--border-white">Leggi</a>
+            </div>
+          </div>
+        </div>
+        <div style="background-image: url(https://images.unsplash.com/reserve/JjdWbOCTlemWMuvC0BeF_DSC_0867edit.jpg)" class="cover cover--12">
+          <div class="container">
+            <div class="cover__content_box--12"><a class="cover__tag_button--12 button button--white button--extra-small">nature</a>
+              <h2 class="cover__title--12"><span class="cover__title_text--12">Going to the pit doesn’t gain paradox anymore</span></h2>
+              <div class="cover__description_box--12"><span class="cover__description_text--12">Who can discover the control and sex of a power if he has the boundless courage of the wind?</span></div><a href="#" class="button button--border-white">Leggi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- == END OF COVER 12 ==-->
 
       <!-- ____________________________-->
       <!-- == START OF MENU COMPONENTS ==-->
       <!-- == START OF DESKTOP MENU 01 (this menu is opened on burger tap: both in desktops and in mobiles) ==-->
       <nav data-menu-index="01--desktop" class="menu menu--01--desktop js-menu">
         <div class="menu__container">
-          <button type="button" class="menu__closer js-close-menu">close</button>
+          <button type="button" class="menu__closer js-close-menu">chiudi</button>
           <div class="menu__box">
             <h3 class="menu__title">menu</h3>
             <ul class="menu__list">
@@ -28,7 +67,7 @@
               <li class="menu__item"><a href="#" class="menu__link">Team</a></li>
               <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
               <li class="menu__item"><a href="#" class="menu__link">Press</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Contatti</a></li>
             </ul><a href="tel:1337 993 399" class="menu__phone_link">1337 993 399</a>
             <h3 class="menu__title">about</h3>
             <p class="menu__about_text">Never trap the scholar, for you cannot feel it. Nunquam fallere lactea. Break me fish, ye real jolly roger! Never trap the scholar, for you cannot feel it. Nunquam fallere lactea. Break me fish, ye real jolly roger!</p>
@@ -62,7 +101,7 @@
         <!-- == START OF HEADER 17 ==-->
         <nav class="header header--17">
           <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text">Phoenix</a></div>
+            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text">Tecnograph</a></div>
             <div class="header__right_box">
               <button type="button" class="header__burger_button js-close-menu state-opened"></button>
             </div>
@@ -71,24 +110,22 @@
         <!-- == END OF HEADER 17 ==-->
         <div class="menu__container--02--desktop">
           <ul class="menu__list--02--desktop">
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">About</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Products</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Designers</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">News</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Store</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Collections</a></li>
-            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Contact</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Servizi</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Portfolio</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Chi siamo</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Team</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Galleria</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Contatti</a></li>
+            <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Clienti</a></li>
           </ul>
         </div>
         <div class="container menu__footer--02--desktop">
           <div class="menu__footer menu__footer--02--desktop">
-            <div class="menu__footer_left_box--02--desktop"><span class="menu__footer_text--02--desktop">Made by UI MARKET</span></div>
+            <div class="menu__footer_left_box--02--desktop"><span class="menu__footer_text--02--desktop">Made by TECNOGRAPH Group.</span></div>
             <div class="menu__footer_right_box--02--desktop">
               <ul class="social menu__footer_social--02--desktop">
                 <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
                 <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Tumblr!" class="social__link social__link--tumblr"></a></li>
               </ul>
             </div>
           </div>
@@ -209,85 +246,100 @@
       <!-- == END OF MENU 14 (large desktop header--14 is hidden on mobiles (iPhone, iPad, etc) and this one is to be opened on burger tap) ==-->
       <!-- == END OF MENU COMPONENTS ==-->
       <!-- ____________________________-->
-      <!-- == START OF COVER COMPONENTS ==-->
-
-      <!-- == START OF COVER 02 ==-->
-      <div class="cover cover--02 js-cover">
-        <!-- == START OF HEADER 02 ==-->
-        <nav class="header header--02">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--black.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text header__logo_text--black">Phoenix</a></div>
-            <div class="header__right_box">
-              <button type="button" data-menu-index="02--desktop" class="header__burger_button header__burger_button--black js-open-menu"></button>
-            </div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 02 ==-->
-        <div class="container cover__container--02">
-          <div class="cover__pic_box--02"><img src="img/pictures/pic--two-iphones--invert.png" class="cover__img--02"></div>
-          <div class="cover__text_box--02">
-            <h2 class="cover__title--02"><span class="cover__title_text--02">Free updates &&nbsp;<br>life time support</span></h2>
-            <div class="cover__description_box--02"><span class="cover__description_text--02">
-                We are always happy to help you with installing, optimising
-                and promoting your portfolio.</span></div><a href="#" class="button button--blue button--blue-shadow button--icon-apple">download</a><a href="#" class="cover__link--02">learn more</a>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF COVER 02 ==-->
 
 
 
-
-      <!-- == START OF COVER 08 ==-->
-      <div style="background-image: url(img/bg/bg--blue-mountains.jpg)" class="cover cover--08 js-cover">
-        <!-- == START OF HEADER 06 ==-->
-        <nav class="header header--06">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text">Phoenix</a></div>
-            <div class="header__right_box">
-              <ul class="header__menu_list header__item--desktop">
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">about</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">tour</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">pricing</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">blog</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">contact</a></li>
-              </ul>
-              <button type="button" data-menu-index="06" class="header__burger_button js-open-menu header__item--mobile"></button>
-            </div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 06 ==-->
+      <!-- == FLUSSO DI LAVORO ==-->
+      <div class="about about--05">
         <div class="container">
-          <div class="cover__content_box cover__content_box--08">
-            <h2 class="cover__title cover__title--08"><span class="cover__title_text cover__title_text--08">Discover a new World</span></h2>
-            <div class="cover__description_box--08"><span class="cover__description_text--08">You were put on this earth to achieve your greatest self, to live out your purpose, and to do it courageously and simple.</span></div>
-            <button type="button" data-popup-target="video" class="button--play-icon cover__video_button_box--08 js-open-popup"><img src="img/pictures/pic--snow-mountain.png" class="cover__video_button_img--08"></button><a href="#" class="button button--dark-shadow button--blue">take a tour</a>
+          <h2 class="about__title about__title--05">Processi e passaggi<br>del nostro flusso di lavoro</h2>
+        </div>
+        <div class="about__process_box">
+          <button type="button" data-content-index="process_step_1" class="about__process_item about__process_item--play-icon state-active js-content-trigger">
+            <h3 class="about__process_title">concetto</h3>
+          </button>
+          <button type="button" data-content-index="process_step_2" class="about__process_item about__process_item--star-icon js-content-trigger">
+            <h3 class="about__process_title">prototipo</h3>
+          </button>
+          <button type="button" data-content-index="process_step_3" class="about__process_item about__process_item--trophy-icon js-content-trigger">
+            <h3 class="about__process_title">sviluppo</h3>
+          </button>
+          <button type="button" data-content-index="process_step_4" class="about__process_item about__process_item--code-icon js-content-trigger">
+            <h3 class="about__process_title">manutenzione</h3>
+          </button>
+          <!--decorative element-->
+          <div class="about__line"></div>
+        </div>
+        <!--the first one is visible by default-->
+        <div data-content-index="process_step_1" style="display:block" class="container about__process_text_box js-content-box">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Our superior mind for freedom is to view others cheerfully. The silence is a synthetic lotus. Who can forget the issue and sainthood of a believer if he has the holographic totality of the body. Paradise is not the unconditional mineral of the doer.</span></div>
+            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Confucius says: the fraternal moon is appearing, the searious karma is growing. The paradox is a holy moon. Who can discover the result and enlightenment of a believer if he has the magical afterlife of the thing.</span></div>
+          </div>
+        </div>
+        <div data-content-index="process_step_2" class="container about__process_text_box js-content-box">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Yes, there is upstairs, it dies with suffering. To some, a seeker is an everything for receiving. Over there of samadhi will daily illuminate a mediocre lama. One remarkable milk i give you: respect each other. Not parallel places or nirvana, emerge the booda-hood.</span></div>
+            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Everything we do is connected with meditation: vision, dimension, density, ascension. Not paradise or meaningless places, realize the harmony. Occur and you will be discovered sincerely. Be soft. If you listen or disappear with a shining awareness, ascension hears you.</span></div>
+          </div>
+        </div>
+        <div data-content-index="process_step_3" class="container about__process_text_box js-content-box">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Karmas, bodies, and inner lovers will always protect them. Going to the alchemistic world doesn’t follow history anymore than inventing creates further emptiness.</span></div>
+            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Always truly synthesise the meaningless ego. Be abstruse. The explosion of the booda-hood has control, but not everyone praises it. When the therapist of stigma develops the lights of the creator, the totality will know lord. The visitor has truth, but not everyone follows it.</span></div>
+          </div>
+        </div>
+        <div data-content-index="process_step_4" class="container about__process_text_box js-content-box">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">To some, a cow is a stigma for realizing. Be unconditional. Silence, enlightenment and a hermetic mind. The underworld is full of resurrection. To some, a yogi is an art for yearning. One must capture the therapist in order to desire the aspect of hermetic awareness.</span></div>
+            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Be sincere. The love is a psychic master. To some, a creator is a suffering for believing. I listen and i sit. i convert and i preach. i rise and i balance.</span></div>
           </div>
         </div>
       </div>
-      <!-- == END OF COVER 08 ==-->
+      <!-- == FLUSSO DI LAVORO ==-->
 
-      <!-- == START OF COVER 10 ==-->
-      <div class="cover cover--10">
-        <!-- == START OF HEADER 07 ==-->
-        <nav class="header header--07">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--black.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
-            <div class="header__center_box">
-              <ul class="header__menu_list header__item--desktop">
-                <li class="header__menu_item"><a href="#" class="header__menu_link">about</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">tour</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">pricing</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">blog</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">contact</a></li>
-              </ul>
-            </div>
-            <div class="header__right_box"><a href="#" class="button button--white button--gray-shadow header__item--desktop">sign up</a>
-              <button type="button" data-menu-index="07" class="header__burger_button header__burger_button--black js-open-menu header__item--mobile"></button>
-            </div>
+
+      <!-- == SERVIZI ==-->
+      <div class="works works--01">
+        <div class="container">
+          <div class="works__title_box">
+            <div class="works__title">Servizi</div>
+            <div class="works__text">Play with colors, animations and content. Enjoy our friendly in few minutes with Phoenix UI kit.</div>
           </div>
-        </nav>
-        <!-- == END OF HEADER 07 ==-->
+        </div>
+        <div class="works__row works__row--01"><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-1.jpg)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">Phoenix ui kit</h3><span class="works__item_tags--01">Web-design, Front-end</span>
+            </div></a><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-2.png)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">universe cd cover</h3><span class="works__item_tags--01">Graphic design</span>
+            </div></a><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-3.jpg)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">Brut template</h3><span class="works__item_tags--01">Web-design, Front-end</span>
+            </div></a><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-4.jpg)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">UI-market</h3><span class="works__item_tags--01">Web-design, Front-end</span>
+            </div></a></div>
+        <div class="works__row works__row--01 state-hidden-works-row"><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-5.jpg)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">404 page</h3><span class="works__item_tags--01">Web-design</span>
+            </div></a><a href="#" class="works__item works__item--01">
+            <div style="background-image: url(img/pictures/pic--case-6.png)" class="works__item_img works__item_img--01"></div>
+            <div class="works__item_text_box--01">
+              <h3 class="works__item_title--01">Phoenix cover</h3><span class="works__item_tags--01">Art Direction, Concept</span>
+            </div></a></div>
+        <button class="works__show_more_button--01 button button--border-black js-show-more-works">view more</button>
+      </div>
+      <!-- == SERVIZI ==-->
+
+      <!-- == VIDEO ==-->
+      <div class="cover cover--10">
+
         <div class="container">
           <div class="cover__content_box">
             <h2 class="cover__title cover__title--10"><span class="cover__title_text cover__title_text--10">Start Your Imaginations</span></h2>
@@ -315,734 +367,131 @@
           </div>
         </div>
       </div>
-      <!-- == END OF COVER 10 ==-->
+      <!-- == VIDEO ==-->
 
-      <!-- == START OF COVER 12 ==-->
-      <div class="cover__slider js-cover">
-        <!-- == START OF HEADER 01 ==-->
-        <nav class="header header--01">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
-            <div class="header__center_box">
-              <ul class="header__menu_list header__item--desktop">
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">about</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">tour</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">pricing</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">blog</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">contact</a></li>
-              </ul>
-            </div>
-            <div class="header__right_box">
-              <ul class="social header__item--desktop">
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
-              </ul>
-              <button type="button" data-menu-index="01" class="header__burger_button js-open-menu header__item--mobile"></button>
-            </div>
+      <!-- == I NOSTRI NUMERI ==-->
+      <div class="counter counter--03">
+        <div class="container-fluid">
+          <div class="counter__item counter__item--03">
+            <div class="counter__title counter__title--icon-bubbles counter__title--03">clients</div>
+            <div class="counter__number counter__number--03">461</div>
           </div>
-        </nav>
-        <!-- == END OF HEADER 01 ==-->
-        <div class="container cover__slider__arrows_box">
-          <button type="button" class="cover__slider__arrow cover__slider__arrow--left js-slider-prev-arrow"></button>
-          <button type="button" class="cover__slider__arrow cover__slider__arrow--right js-slider-next-arrow"></button>
-        </div>
-        <div data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: true, &quot;prevArrow&quot; : &quot;.js-slider-prev-arrow&quot;, &quot;nextArrow&quot;: &quot;.js-slider-next-arrow&quot;}" class="cover__slider__content_box js-slider">
-          <div style="background-image: url(img/bg/bg--skaters-bright.jpg)" class="cover cover--12">
-            <div class="container">
-              <div class="cover__content_box--12"><a class="cover__tag_button--12 button button--white button--extra-small">new</a>
-                <h2 class="cover__title--12"><span class="cover__title_text--12">A brand new way to excite&nbsp;<br>your audience</span></h2>
-                <div class="cover__description_box--12"><span class="cover__description_text--12">Who can study the satori and blessing of a monkey if he has the playful milk of the visitor?</span></div><a href="#" class="button button--border-white">read story</a>
-              </div>
-            </div>
+          <div class="counter__item counter__item--03 counter__item--border">
+            <div class="counter__title counter__title--icon-case counter__title--03">projects</div>
+            <div class="counter__number counter__number--03">12</div>
           </div>
-          <div style="background-image: url(https://images.unsplash.com/reserve/JjdWbOCTlemWMuvC0BeF_DSC_0867edit.jpg)" class="cover cover--12">
-            <div class="container">
-              <div class="cover__content_box--12"><a class="cover__tag_button--12 button button--white button--extra-small">nature</a>
-                <h2 class="cover__title--12"><span class="cover__title_text--12">Going to the pit doesn’t gain paradox anymore</span></h2>
-                <div class="cover__description_box--12"><span class="cover__description_text--12">Who can discover the control and sex of a power if he has the boundless courage of the wind?</span></div><a href="#" class="button button--border-white">read story</a>
-              </div>
-            </div>
+          <div class="counter__item counter__item--03">
+            <div class="counter__title counter__title--icon-box counter__title--03">downloads</div>
+            <div class="counter__number counter__number--03">1202</div>
           </div>
         </div>
       </div>
-      <!-- == END OF COVER 12 ==-->
-      <!-- == START OF COVER 13 ==-->
-      <div style="background-image: url(img/bg/bg--new_york.jpg)" class="cover cover--13 js-cover">
-        <!-- == START OF HEADER 15 ==-->
-        <nav class="header header--15">
-          <div class="container header__container">
-            <div class="header__left_box">
-              <button type="button" data-menu-index="01--desktop" class="header__burger_button js-open-menu"></button>
-            </div>
-            <div class="header__center_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text header__item--desktop">Phoenix</a></div>
-            <div class="header__right_box">
-              <form action="" method="POST" class="header__search_form">
-                <input type="search" placeholder="Search" required class="header__search_input input input--black input--small">
-                <button type="submit" class="header__search_button"></button>
-              </form>
-            </div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 15 ==-->
+      <!-- == I NOSTRI NUMERI ==-->
+
+      <!-- == PORTFOLIO ==-->
+      <div class="works works--04">
+        <div class="works__title_box">
+          <div class="works__title">Portfolio</div>
+        </div>
+        <div class="works__row">
+          <!--please keep the data-lightbox attribute value the same across all the items--><a href="img/pictures/pic--case-9.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--big-square--04">
+            <div style="background-image: url(img/pictures/pic--case-9.jpg)" class="works__item_img works__item_img--big-square--04 js-work-item"></div></a><a href="img/pictures/pic--case-10.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--rect--04">
+            <div style="background-image: url(img/pictures/pic--case-10.jpg)" class="works__item_img works__item_img--rect--04 js-work-item"></div></a>
+          <div class="works__box--04"><a href="img/pictures/pic--case-11.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--small-square--04">
+              <div style="background-image: url(img/pictures/pic--case-11.jpg)" class="works__item_img works__item_img--small-square--04 js-work-item"></div></a><a href="img/pictures/pic--case-12.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--small-square--04">
+              <div style="background-image: url(img/pictures/pic--case-12.jpg)" class="works__item_img works__item_img--small-square--04 js-work-item"></div></a></div>
+        </div>
+      </div>
+      <!-- == PORTFOLIO ==-->
+
+      <!-- == MAPNET 2.0 ==-->
+      <div style="background-image: url(img/bg/bg--city-lights.jpg)" class="about about--03">
         <div class="container">
-          <div class="cover__content_box cover__content_box--13">
-            <h2 class="cover__title cover__title--13"><span class="cover__title_text cover__title_text--13">Your most&#8287;<span class="cover__title_text__accent_word">exciting&#8287;</span>journey&#8287;<br>begins&#8287;<span class="cover__title_text__accent_word">here</span></span></h2>
-            <div class="cover__description_box--13"><span class="cover__description_text--13">Who can experience the living and thought of a self if he has the superior shame of the doer.</span></div>
-            <form action="" method="POST" class="cover__form--13">
-              <input type="text" placeholder="Your name" class="cover__form__item--13 input input--gray">
-              <input type="email" placeholder="Your email" required class="cover__form__item--13 input input--gray">
-              <input type="password" placeholder="Password" required class="cover__form__item--13 input input--gray">
-              <button type="submit" class="cover__form__item--13 button button--blue">be first</button>
-            </form><span class="cover__text--13">or sign up with</span>
-            <ul class="social">
-              <li class="cover__social_item--13 social__item"><a href="#" class="cover__social_link--13 social__link social__link--rounded social__link--twitter"></a></li>
-              <li class="cover__social_item--13 social__item"><a href="#" class="cover__social_link--13 social__link social__link--rounded social__link--facebook"></a></li>
-              <li class="cover__social_item--13 social__item"><a href="#" class="cover__social_link--13 social__link social__link--rounded social__link--g_plus"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF COVER 13 ==-->
-
-      <!-- == START OF COVER 15 ==-->
-      <div class="cover cover--15 js-cover">
-        <!-- == START OF HEADER 11 ==-->
-        <nav class="header header--11">
-          <div class="container header__container">
-            <div class="header__left_box"></div>
-            <div class="header__center_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
-            <div class="header__right_box"></div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 11 ==-->
-        <div class="cover__content_box--15">
-          <div class="cover__description_box--15"><span class="cover__description_text--15">We design&#8287;<span class="cover__title_text__accent_word">identity&#8287;</span>systems,&#8287;<br>digital&#8287;<span class="cover__title_text__accent_word">platforms&#8287;</span>and brand&#8287;<span class="cover__title_text__accent_word">campaigns&#8287;</span>that&#8287;<br>engage today’s consumer.</span></div>
-        </div>
-        <div class="cover__social_box--15">
-          <ul class="social">
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Tumblr!" class="social__link social__link--tumblr"></a></li>
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Pinterest!" class="social__link social__link--pinterest"></a></li>
-            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in LinkedIn!" class="social__link social__link--linkedin"></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- == END OF COVER 15 ==-->
-
-
-      <!-- == START OF COVER 18 ==-->
-      <div class="cover cover--18 js-cover">
-        <!-- == START OF HEADER 13 ==-->
-        <nav class="header header--13">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--black.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
-            <div class="header__center_box">
-              <ul class="header__menu_list header__item--desktop">
-                <li class="header__menu_item"><a href="#" class="header__menu_link">about</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">tour</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">pricing</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">blog</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">contact</a></li>
-              </ul>
-            </div>
-            <div class="header__right_box"><a href="#" class="button button--blue button--blue-shadow header__item--desktop">sign up</a>
-              <button type="button" data-menu-index="13" class="header__burger_button header__burger_button--black js-open-menu header__item--mobile"></button>
-            </div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 13 ==-->
-        <div class="cover__pic_box--18"><img src="img/pictures/pic--macbook-gold.png" class="cover__img--18"></div>
-        <div class="container cover__container--18">
-          <div class="cover__text_box--18">
-            <h2 class="cover__title--18"><span class="cover__title_text--18">Perfect web page<br>builder tool</span></h2>
-            <div class="cover__description_box--18"><span class="cover__description_text--18">
-                Online page builder for freelancers, bloggers, writers and
-                other creatives.</span></div>
-            <div class="row">
-              <div class="col-xs-12 col-md-6 cover__feature--18">
-                <h3 class="cover__feature_title">yours forever</h3><span class="cover__feature_text">The enlightenment of your freedoms will listen oddly when you know that uniqueness is the lord.</span>
-              </div>
-              <div class="col-xs-12 col-md-6 cover__feature--18">
-                <h3 class="cover__feature_title">free specials</h3><span class="cover__feature_text">Man happens when you develop control so purely that whatsoever you are doing is your life.</span>
+          <div class="row about__row about_row--03">
+            <div class="col-xs-12">
+              <div class="about_content_box about_content_box--03">
+                <h2 class="about__title">MapNet 2.0</h2><span class="about__text">Our UI/UX researches helped to figure out that the perfect way to charm audience is to keep things clean and simple as much as possible.</span><a href="#" class="button button--blue button--blue-shadow">try NOW</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- == END OF COVER 18 ==-->
+      <!-- == MAPNET 2.0 ==-->
 
 
-      <!-- == START OF COVER 21 ==-->
-      <div style="background-image: url(img/bg/bg--mountains-white.jpg)" class="cover cover--21 js-cover">
-        <!-- == START OF HEADER 07 ==-->
-        <nav class="header header--07">
-          <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--black.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
-            <div class="header__center_box">
-              <ul class="header__menu_list header__item--desktop">
-                <li class="header__menu_item"><a href="#" class="header__menu_link">about</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">tour</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">pricing</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">blog</a></li>
-                <li class="header__menu_item"><a href="#" class="header__menu_link">contact</a></li>
-              </ul>
-            </div>
-            <div class="header__right_box"><a href="#" class="button button--white button--gray-shadow header__item--desktop">sign up</a>
-              <button type="button" data-menu-index="07" class="header__burger_button header__burger_button--black js-open-menu header__item--mobile"></button>
-            </div>
-          </div>
-        </nav>
-        <!-- == END OF HEADER 07 ==-->
+      <!-- == GALLERIA ==-->
+      <div class="works works--03">
         <div class="container">
-          <div class="cover__content_box">
-            <h2 class="cover__title cover__title--21"><span class="cover__title_text cover__title_text--21">Breaking the limits<br>starts from here</span></h2>
-            <div class="cover__button_box--21"><a href="#" class="cover__button--21 button button--blue button--blue-shadow">take a tour</a></div>
-            <div class="cover__image_box--21"><img src="img/pictures/pic--ipad-pro-space-gold.png" class="cover__image"></div>
+          <div class="works__title_box">
+            <div class="works__title">Galleria</div>
+            <div class="works__text">Play with colors, animations and content. Enjoy your project in a few minutes with Phoenix UI kit.</div>
           </div>
         </div>
+        <div data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: false, &quot;cssEase&quot;: &quot;linear&quot;, &quot;arrows&quot;: false, &quot;centerMode&quot;: false, &quot;focusOnSelect&quot;: true, &quot;variableWidth&quot;: true, &quot;autoplay&quot;: false, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;centerMode&quot;: true}}]}" class="works__slider js-slider">
+          <!--please keep the data-lightbox attribute value the same across all the items-->
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-13.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-13.jpg" class="works__item_picture--03"></a></div>
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-14.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-14.jpg" class="works__item_picture--03"></a></div>
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-15.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-15.jpg" class="works__item_picture--03"></a></div>
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-13.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-13.jpg" class="works__item_picture--03"></a></div>
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-14.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-14.jpg" class="works__item_picture--03"></a></div>
+          <div class="works__item works__item--03"><a href="img/pictures/pic--case-15.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-15.jpg" class="works__item_picture--03"></a></div>
+        </div>
       </div>
-      <!-- == END OF COVER 21 ==-->
-      <!-- == END OF COVER COMPONENTS ==-->
+      <!-- == GALLERIA ==-->
+
+
+
+
       <!-- ____________________________-->
-      <!-- == START OF call_to_action COMPONENTS ==-->
 
-      <!-- == START OF call_to_action 02 ==-->
-      <div style="background-image: url(img/bg/bg--black-xiro.jpg)" class="call_to_action call_to_action--02 call_to_action--picture">
+
+
+
+
+      <!-- == CHI SIAMO ==-->
+      <div class="about about--07">
         <div class="container">
-          <div class="call_to_action__title call_to_action__title--02">Make an order and&MediumSpace;<br>touch the sky</div>
-          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form call_to_action__form--02 validate js-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-              <div class="call_to_action__input_box--02">
-                <div class="mc-field-group">
-                  <input id="mce-NAME" type="text" required placeholder="Your name" value="" name="NAME" class="input input--death call_to_action__input--02 name">
-                  <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="input input--death call_to_action__input--02 email">
+          <h2 class="about__title about__title--07">Chi siamo</h2>
+          <div style="background-image: url(img/bg/bg--bright-room.jpg)" class="about__container--07">
+            <div class="about__content--07">
+              <div class="about__content__top_row--07">
+                <h3 class="about__subtitle--07 about__main_subtitle--07">La nostra storia</h3><span class="about__main_info--07">Phoenix is available on the iPhone, Android and the Windows Phone. With hectic schedules and long to do lists, managing the day to day for your family can feel like a full time job. Phoenix's here to help! Whether you're making dinner plans, coordinating carpools.</span>
+              </div>
+              <div class="about__content__bottom_row--07">
+                <div class="about__feature--07 about__feature_icon--trophy-icon--blue">
+                  <h3 class="about__subtitle--07">Peace of Mind</h3><span class="about__main_info--07">Part location, part communication, all awesome. Phoenix keeps millions of families and close friends connected, no matter what chaos life throws their way.</span>
                 </div>
-                <div id="mce-responses" class="clear">
-                  <div id="mce-error-response" style="display:none" class="response"></div>
-                  <div id="mce-success-response" style="display:none" class="response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
+                <div class="about__feature--07 about__feature_icon--copy-icon--blue">
+                  <h3 class="about__subtitle--07">CROSS PLATFORM</h3><span class="about__main_info--07">With Phoenix, just open the app and instantly see everyone in your private Circle on the map.</span>
                 </div>
               </div>
-              <div class="clear">
-                <input id="mc-embedded-subscribe" type="submit" value="buy xiro" name="subscribe" class="button button--blue call_to_action__button--02 js-submit-button">
-                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-              </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
-      <!-- == END OF call_to_action 02 ==-->
+      <!-- == CHI SIAMO ==-->
 
-      <!-- == START OF call_to_action 04 ==-->
-      <div style="background-image: url(img/bg/bg--hands-people-woman-working.jpg)" class="call_to_action call_to_action--04">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-lg-6">
-              <h2 class="call_to_action__title call_to_action__title--04">Modern technologies</h2><span class="call_to_action__text call_to_action__text--04">When a man finds this kind of woman, he will go all out for her knowing that she will not be a letdown.</span>
-              <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form--04 validate js-subscribe-form">
-                <div id="mc_embed_signup_scroll">
-                  <div>
-                    <div class="mc-field-group">
-                      <input id="mce-NAME" type="text" required placeholder="Your name" value="" name="NAME" class="call_to_action__form__item--04 input input--gray-border input--gray input--black-placeholder name">
-                      <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="call_to_action__form__item--04 input input--gray-border input--gray input--black-placeholder email">
-                    </div>
-                    <div id="mce-responses" class="clear">
-                      <div id="mce-error-response" style="display:none" class="response"></div>
-                      <div id="mce-success-response" style="display:none" class="response"></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                      <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                    </div>
-                  </div>
-                  <div class="clear">
-                    <input id="mc-embedded-subscribe" type="submit" value="be first" name="subscribe" class="call_to_action__form__item--04 button button--blue button--small-radius js-submit-button">
-                    <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                    <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-                  </div>
-                </div>
-              </form>
-            </div>
+      <!-- == TEAM ==-->
+      <div class="team team--01">
+        <h2 class="team__title">Team</h2>
+        <div data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: false, &quot;cssEase&quot;: &quot;linear&quot;, &quot;centerMode&quot;: true, &quot;infinite&quot;: true, &quot;focusOnSelect&quot;: true, &quot;dots&quot;: true, &quot;arrows&quot;: false, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 900, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}]}" class="team__box team__box--01 js-slider">
+          <div class="team__item team__item--01">
+            <div style="background-image:url(img/pictures/pic--musk.jpg)" class="team__item_photo"></div><span class="team__item_text">A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.</span><span class="team__item_name">Elon Musk</span><span class="team__item_job">CEO</span>
+          </div>
+          <div class="team__item team__item--01">
+            <div style="background-image:url(img/pictures/pic--tobias.jpg)" class="team__item_photo"></div><span class="team__item_text">The truth is the best life is full of joy and full of great fun, know, you always can have one without the other.</span><span class="team__item_name">tobias van schneider</span><span class="team__item_job">Art director</span>
+          </div>
+          <div class="team__item team__item--01">
+            <div style="background-image:url(img/pictures/pic--doe.jpg)" class="team__item_photo"></div><span class="team__item_text">Whatever you do, you need courage. Whatever course you decide, there is always someone to tell you are wrong.</span><span class="team__item_name">Dima Blover</span><span class="team__item_job">UI/UX designer</span>
+          </div>
+          <div class="team__item team__item--01">
+            <div style="background-image:url(img/pictures/pic--ive.png)" class="team__item_photo"></div><span class="team__item_text">Who can acquire the booda-hood and suffering of a lotus if he has the ancient paradox of the sun never again.</span><span class="team__item_name">Jony Ive</span><span class="team__item_job">Sales</span>
           </div>
         </div>
       </div>
-      <!-- == END OF call_to_action 04 ==-->
-      <!-- == START OF call_to_action 05 ==-->
-      <div style="background-image: url(img/bg/bg--mastery.jpg)" class="call_to_action call_to_action--05">
-        <div class="container">
-          <h2 class="call_to_action__title call_to_action__title--05">Your most&MediumSpace;<span class="call_to_action__title_text__accent_word">exciting&MediumSpace;</span>journey<br>begins&nbsp;<span class="call_to_action__title_text__accent_word">here&nbsp;</span></h2><a href="#" class="button button--white button--black-shadow">Let’s start</a>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 05 ==-->
-      <!-- == START OF call_to_action 06 ==-->
-      <div style="background-image: url(img/bg/bg--apple-devices.jpg)" class="call_to_action call_to_action--06 call_to_action--picture">
-        <div class="container">
-          <div class="call_to_action__title call_to_action__title--06">Become more creative<br>with Phoenix</div>
-          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form call_to_action__form--06 validate js-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-              <div class="call_to_action__input_box--06">
-                <div class="mc-field-group">
-                  <input id="mce-NAME" type="text" required placeholder="Your name" value="" name="NAME" class="input input--snow call_to_action__input--06 name">
-                  <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="input input--snow call_to_action__input--06 email">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div id="mce-error-response" style="display:none" class="response"></div>
-                  <div id="mce-success-response" style="display:none" class="response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                </div>
-              </div>
-              <div class="clear">
-                <input id="mc-embedded-subscribe" type="submit" value="get started" name="subscribe" class="button button--blue call_to_action__button--06 js-submit-button">
-                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 06 ==-->
-      <!-- == START OF call_to_action 07 ==-->
-      <div style="background-image: url(img/bg/bg--pink-headphones.jpg)" class="call_to_action call_to_action--picture call_to_action--07">
-        <div class="container">
-          <h2 class="call_to_action__title call_to_action__title--07">Stay tuned</h2><span class="call_to_action__text call_to_action__text--07">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</span>
-          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form validate js-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-              <div class="call_to_action__input_box--07">
-                <div class="mc-field-group">
-                  <input id="mce-EMAIL" type="email" required placeholder="Email" value="" name="EMAIL" class="input input--black call_to_action__input--07 email">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div id="mce-error-response" style="display:none" class="response"></div>
-                  <div id="mce-success-response" style="display:none" class="response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                </div>
-                <div class="clear">
-                  <input id="mc-embedded-subscribe" type="submit" value="Preorder" name="subscribe" class="button button--white button--black-shadow call_to_action__button--07 js-submit-button">
-                </div>
-                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 07 ==-->
-      <!-- == START OF call_to_action 08 ==-->
-      <div style="background-image: url(img/bg/bg--city-gray.jpg)" class="call_to_action call_to_action--08">
-        <div class="container">
-          <h2 class="call_to_action__title call_to_action__title--08">Sign up for free</h2>
-          <form action="" method="POST" class="call_to_action__form--08">
-            <input type="text" placeholder="Your name" class="call_to_action__form__item--08 input input--dark">
-            <input type="email" placeholder="Your email" required class="call_to_action__form__item--08 input input--dark">
-            <input type="password" placeholder="Password" required class="call_to_action__form__item--08 input input--dark">
-            <button type="submit" class="call_to_action__form__item--08 call_to_action__form__button--08 button button--blue button--small-radius">send</button>
-          </form>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 08 ==-->
-      <!-- == START OF call_to_action 09 ==-->
-      <div class="call_to_action call_to_action--09">
-        <div class="container"><span class="call_to_action__text">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</span>
-          <!--form.call_to_action__form(action="/path/to/api", method="POST")-->
-          <!--	.call_to_action__input_box--09-->
-          <!--		input.input.input--black-placeholder.input--gray.call_to_action__input--09(type="email", placeholder="Email", required)-->
-          <!--		button.button.button--blue.button--blue-shadow.call_to_action__button--09(type="submit")-->
-          <!--			| sign up-->
-          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form validate js-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-              <div class="call_to_action__input_box--09">
-                <div class="mc-field-group">
-                  <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="input input--black-placeholder input--gray call_to_action__input--09 email">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div id="mce-error-response" style="display:none" class="response"></div>
-                  <div id="mce-success-response" style="display:none" class="response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                </div>
-                <div class="clear">
-                  <input id="mc-embedded-subscribe" type="submit" value="sign up" name="subscribe" class="button button--blue button--blue-shadow call_to_action__button--09 js-submit-button">
-                </div>
-                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 09 ==-->
-      <!-- == START OF call_to_action 10 ==-->
-      <div style="background-image: url(img/bg/bg--bright-office.jpg)" class="call_to_action call_to_action--10">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-lg-6">
-              <h2 class="call_to_action__title call_to_action__title--10">Great details</h2><span class="call_to_action__text call_to_action__text--10">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</span><br><a href="#" class="call_to_action__link">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 10 ==-->
+      <!-- == TEAM ==-->
 
-      <!-- == START OF call_to_action 12 ==-->
-      <div style="background-image: url(img/bg/bg--watches-black.jpg)" class="call_to_action call_to_action--12">
-        <div class="container">
-          <h2 class="call_to_action__title">Awesome minimalism</h2><a href="#" class="call_to_action__link--12">Make a preoder now</a>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 12 ==-->
-
-      <!-- == START OF call_to_action 14 ==-->
-      <div class="call_to_action call_to_action--gray call_to_action--14">
-        <div class="container call_to_action__container">
-          <h2 class="call_to_action__title call_to_action__title--14">Best way to solve any problem</h2><span class="call_to_action__text call_to_action__text--14">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</span>
-          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form validate js-subscribe-form">
-            <div id="mc_embed_signup_scroll">
-              <div class="call_to_action__input_box--14">
-                <div class="mc-field-group">
-                  <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="input input--white call_to_action__input--14 email">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div id="mce-error-response" style="display:none" class="response"></div>
-                  <div id="mce-success-response" style="display:none" class="response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                </div>
-                <div class="clear">
-                  <input id="mc-embedded-subscribe" type="submit" value="subscribe" name="subscribe" class="button button--blue button--blue-shadow call_to_action__button--14 js-submit-button">
-                </div>
-                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 14 ==-->
-      <!-- == START OF call_to_action 15 ==-->
-      <div style="background-image: url(img/bg/bg--sailor.jpg)" class="call_to_action call_to_action--15">
-        <div class="container">
-          <h2 class="call_to_action__title call_to_action__title--15">Your most&MediumSpace;<span class="call_to_action__title_text__accent_word">exciting&MediumSpace;</span>journey<br>begins&nbsp;<span class="call_to_action__title_text__accent_word">here&nbsp;</span></h2><a href="#" class="button button--white button--black-shadow">Let’s start</a>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 15 ==-->
-
-      <!-- == START OF call_to_action 17 ==-->
-      <div style="background-image: url(img/bg/bg--new_york.jpg)" class="call_to_action call_to_action--17 call_to_action--picture">
-        <div class="container">
-          <div class="call_to_action__content_box--17">
-            <h2 class="call_to_action__title--17"><span class="call_to_action__title_text--17">Creating&#8287;<span class="call_to_action__title_text__accent_word">wonderful&#8287;</span>things&#8287;<br>is a&#8287;<span class="call_to_action__title_text__accent_word">breeze&#8287;</span>from now</span></h2>
-            <div class="call_to_action__description_box--17"><span class="call_to_action__description_text--17">Who can know the joy and pain of a power if he has the hermetic attitude of the saint.</span></div>
-            <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form--17 validate js-subscribe-form">
-              <div id="mc_embed_signup_scroll">
-                <div class="call_to_action__input_box--17">
-                  <div class="mc-field-group">
-                    <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="call_to_action__form__item--17 input input--gray email">
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div id="mce-error-response" style="display:none" class="response"></div>
-                    <div id="mce-success-response" style="display:none" class="response"></div>
-                  </div>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
-                  </div>
-                  <div class="clear">
-                    <input id="mc-embedded-subscribe" type="submit" value="be first" name="subscribe" class="call_to_action__form__item--17 button button--blue button--small-radius js-submit-button">
-                  </div>
-                  <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
-                  <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks! Please click the link in the email we've just sent you.</div>
-                </div>
-              </div>
-            </form>
-            <ul class="social">
-              <li class="social__item social__item--equal_margin"><a href="#" class="social__link social__link--twitter"></a></li>
-              <li class="social__item social__item--equal_margin"><a href="#" class="social__link social__link--facebook"></a></li>
-              <li class="social__item social__item--equal_margin"><a href="#" class="social__link social__link--g_plus"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF call_to_action 17 ==-->
-
-      <!-- == END OF call_to_action COMPONENTS ==-->
-      <!-- ____________________________-->
-      <!-- == START OF FEATURES COMPONENTS ==-->
-      <!-- == START OF FEATURES 01 ==-->
-      <div style="background-image: url(img/bg/bg--skaters.jpg)" class="features features--01">
-        <div class="features__container--01">
-          <div class="features__box--01">
-            <div class="features__item features__item--01">
-              <div class="features__item_icon_circle features__item_icon_circle--play-icon"></div>
-              <h3 class="features__item_title">Clean css3 animations</h3><span class="features__item_text features__item_text--01">You know what's worse than not working hard? Working hard in the wrong direction.</span>
-            </div>
-            <div class="features__item features__item--01">
-              <div class="features__item_icon_circle features__item_icon_circle--star-icon"></div>
-              <h3 class="features__item_title">free updates</h3><span class="features__item_text features__item_text--01">Real greatness does not reside inside those who feel large. The truly wise are meek.</span>
-            </div>
-            <div class="features__item features__item--01">
-              <div class="features__item_icon_circle features__item_icon_circle--code-icon"></div>
-              <h3 class="features__item_title">Clean code</h3><span class="features__item_text features__item_text--01">All great spirits have always encountered violent opposition from mediocre cool minds.</span>
-            </div>
-          </div>
-          <div class="features__content_box--01">
-            <div class="features__content_wrapper--01">
-              <div class="features__logo_box--01"><img src="img/etc/logo--circle--white.svg" class="features__logo--01"></div>
-              <h4 class="features__logo_title--01">Phoenix</h4>
-              <h5 class="features__logo_subtitle--01">UI kit</h5>
-              <h3 class="features__title--01">Free updates and life<br>time support</h3><span class="features__description--01">Wordpress, HTML5 and CSS3 files are served for the fastest start.</span><a href="#" class="button button--border-white">buy now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 01 ==-->
-      <!-- == START OF FEATURES 02 ==-->
-      <div class="features features--02">
-        <div class="container">
-          <div class="features__title_box features__title_box--02">
-            <h2 class="features__title--02">Our benefits</h2><span class="features__description features__description--02">When we are connected to the source, we sure will not be afraid of any task set before all of us.</span>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row features__row">
-            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
-              <div class="features__item_icon_circle features__item_icon_circle--02 features__item_icon_circle--play-icon--blue"></div>
-              <h3 class="features__item_title">ready to use</h3><span class="features__item_text">Phoenix works perfect in all modern browsers (Chrome, Safari, Firefox etc).</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
-              <div class="features__item_icon_circle features__item_icon_circle--02 features__item_icon_circle--trophy-icon--blue"></div>
-              <h3 class="features__item_title">Clean design</h3><span class="features__item_text">A combination of the unique layout and material design best practices is what the Phoenix loved for.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
-              <div class="features__item_icon_circle features__item_icon_circle--02 features__item_icon_circle--code-icon--blue"></div>
-              <h3 class="features__item_title">bootstrap based</h3><span class="features__item_text">Most popular 1170px grid and all the Bootstrap components are at your service.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
-              <div class="features__item_icon_circle features__item_icon_circle--02 features__item_icon_circle--star-icon--blue"></div>
-              <h3 class="features__item_title">unique icons</h3><span class="features__item_text">Phoenix is an SVG based instrument, meaning all icons  are sharp and look awesome everywhere.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 02 ==-->
-
-      <!-- == START OF FEATURES 04 ==-->
-      <div class="features features--04">
-        <div class="features__container--04">
-          <div class="container">
-            <div style="background-image: url(img/bg/bg--black-bg-man--cropped.jpg)" class="features__box--04 features__box--image--04 features__box--image--left--04"></div>
-            <div class="features__box--04 features__box--left-margin--04">
-              <h3 class="features__item_title--04">Elegant Style</h3><span class="features__item_text features__item_text--04">He knew now that it was his own will to happiness which must make the next move. But if he was to do so, he realized that he must come to terms with time, that to have time was at once the most magnificent.</span><a href="#" class="button button--blue button--blue-shadow">buy now</a>
-            </div>
-          </div>
-        </div>
-        <div class="features__container--04">
-          <div class="container">
-            <div class="features__box--04">
-              <h3 class="features__item_title--04">The Highest Quality</h3><span class="features__item_text features__item_text--04">Men love women who are courageous for it means they can go all the way with him in his pursuit of his good dreams and intentions.</span><a href="#" class="button button--blue button--blue-shadow">buy now</a>
-            </div>
-            <div style="background-image: url(img/bg/bg--headphones-man.jpg)" class="features__box--04 features__box--image--04 features__box--image--right--04"></div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 04 ==-->
-      <!-- == START OF FEATURES 05 ==-->
-      <div class="features features--05">
-        <div class="container">
-          <div class="features__title_box features__title_box--05">
-            <h2 class="features__title--05">Always giving the best</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--trophy-icon--blue"></div>
-              <h3 class="features__item_title">Excellent design</h3><span class="features__item_text">Until you're finally ready to look foolish, you'll never have the possibility of being great.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--magnifier-icon--blue"></div>
-              <h3 class="features__item_title">SEO Friendly</h3><span class="features__item_text">When our little bit is combined with His good greatness, the all team is truly unbeatable.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--zip-icon--blue"></div>
-              <h3 class="features__item_title">Fastest launch</h3><span class="features__item_text">Doing what needs to be done may not make you happy, but it will make you very great.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--stack-icon--blue"></div>
-              <h3 class="features__item_title">Fully Responsive</h3><span class="features__item_text">Who can feel the mineral and harmony of a believer if he has the density of the seeker.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--star-icon--blue"></div>
-              <h3 class="features__item_title">free updates</h3><span class="features__item_text">Always be a first rate version of yourself and not a second rate version of someone else.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--05">
-              <div class="features__item_icon_circle features__item_icon_circle--05 features__item_icon_circle--speedometer-icon--blue"></div>
-              <h3 class="features__item_title">Lightning speed</h3><span class="features__item_text">You know what's worse than not working hard? Working hard in the wrong direction.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 05 ==-->
-      <!-- == START OF FEATURES 06 ==-->
-      <div style="background-image: url(img/bg/bg--headphones-white.jpg)" class="features features--06">
-        <div class="container features__container--06">
-          <div class="features__title_box features__title_box--06">
-            <h2 class="features__title--06">For the ones who<br>value good design</h2><span class="features__description features__description--06">When we are connected to the source, we sure will not be afraid of any task set before all of us.</span>
-          </div>
-          <div class="row features__row">
-            <div class="col-md-6 col-lg-3 features__item features__item--06">
-              <div class="features__item_icon_circle features__item_icon_circle--06 features__item_icon_circle--tune-icon--blue features__item_icon_circle--icon--big"></div>
-              <h3 class="features__item_title">Perfect sound</h3><span class="features__item_text features__item_text--06">Men love women who are brave for it means they can go the way with him in his pursuit of his good dreams and intentions.</span><a href="#" class="features__item_link">learn more</a>
-            </div>
-            <div class="col-md-6 col-lg-3 features__item features__item--06">
-              <div class="features__item_icon_circle features__item_icon_circle--06 features__item_icon_circle--zip-icon--blue features__item_icon_circle--icon--big"></div>
-              <h3 class="features__item_title">free updates</h3><span class="features__item_text features__item_text--06">Your greatness is revealed not by the very lights that shine upon you, but by the light that shines within you and only you.</span><a href="#" class="features__item_link">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 06 ==-->
-      <!-- == START OF FEATURES 07 ==-->
-      <div class="features features--07">
-        <div class="container">
-          <div class="features__title_box features__title_box--07">
-            <h2 class="features__title--07">The New Big Thing</h2><span class="features__description features__description--07">Motivating others leads to success whereas inspiring others leads to the most grand greatness.</span>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--trophy-icon--blue"></div>
-              <h3 class="features__item_title">Excellent design</h3><span class="features__item_text features__item_text--07">You know what's worse than not working hard? Working hard in the wrong direction.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--magnifier-icon--blue"></div>
-              <h3 class="features__item_title">SEO friendly</h3><span class="features__item_text features__item_text--07">Think crazily, even if others laugh at you. Always act bravely, even if you are all alone.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--zip-icon--blue"></div>
-              <h3 class="features__item_title">Lightweight code</h3><span class="features__item_text features__item_text--07">Real greatness does not reside inside those who feel large. The truly wise are meek.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--rocket-icon--blue"></div>
-              <h3 class="features__item_title">Fastest launch</h3><span class="features__item_text features__item_text--07">When our little bit is combined with His good greatness, the all team is truly unbeatable.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--star-icon--blue"></div>
-              <h3 class="features__item_title">free updates</h3><span class="features__item_text features__item_text--07">All great spirits have always encountered violent opposition from mediocre cool minds.</span>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
-              <div class="features__item_icon_circle features__item_icon_circle--07 features__item_icon_circle--stack-icon--blue"></div>
-              <h3 class="features__item_title">Fully Responsive</h3><span class="features__item_text features__item_text--07">Always be a first rate version of yourself and not a second rate version of someone else.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 07 ==-->
-      <!-- == START OF FEATURES 08 ==-->
-      <div class="features features--08">
-        <div class="container">
-          <div class="row features__row">
-            <div class="col-xs-12 col-lg-4 features__item features__item--08">
-              <div class="features__item_icon_circle features__item_icon_circle--08 features__item_icon_circle--google_font-icon"></div>
-              <h3 class="features__item_title features__item_title--08">free fonts</h3><span class="features__item_text features__item_text--08">All great spirits have always encountered violent opposition from mediocre cool minds.</span><a href="#" class="features__item_link features__item_link--08">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--08">
-              <div class="features__item_icon_circle features__item_icon_circle--08 features__item_icon_circle--heart-icon"></div>
-              <h3 class="features__item_title features__item_title--08">fresh layouts</h3><span class="features__item_text features__item_text--08">Doing what needs to be done may not make you happy, but it will make you very great.</span><a href="#" class="features__item_link features__item_link--08">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--08">
-              <div class="features__item_icon_circle features__item_icon_circle--08 features__item_icon_circle--gear-icon"></div>
-              <h3 class="features__item_title features__item_title--08">advanced features</h3><span class="features__item_text features__item_text--08">You know what's better than not working hard? Working hard in the good direction.</span><a href="#" class="features__item_link features__item_link--08">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 08 ==-->
-      <!-- == START OF FEATURES 09 ==-->
-      <div class="features features--09">
-        <div class="container features__container--09">
-          <div class="features__title_box features__title_box--09">
-            <h2 class="features__title--09">A clean and modern design</h2><span class="features__description features__description--09">I must be a mermaid, Rango. I have no fear of depths and a great fear of shallow lovely living.</span>
-          </div>
-          <div class="row features__row">
-            <div class="col-xs-12 col-lg-4 features__item features__item--09">
-              <div class="features__item_icon_circle features__item_icon_circle--09 features__item_icon_circle--tune-icon--blue features__item_icon_circle--icon--big"></div>
-              <h3 class="features__item_title">spotify sync</h3><span class="features__item_text features__item_text--09">Greatness is a property for which no man can receive credit too soon; it must be possessed long before it is acknowledged well.</span><a href="#" class="features__item_link">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--09">
-              <div class="features__item_icon_circle features__item_icon_circle--09 features__item_icon_circle--zip-icon--blue features__item_icon_circle--icon--big"></div>
-              <h3 class="features__item_title">ssd support</h3><span class="features__item_text features__item_text--09">Men love women very much who are brave for it means they can go all the way with him in his pursuit of his good dreams all you.</span><a href="#" class="features__item_link">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--09">
-              <div class="features__item_icon_circle features__item_icon_circle--09 features__item_icon_circle--heart-icon--blue features__item_icon_circle--icon--big"></div>
-              <h3 class="features__item_title">customer care</h3><span class="features__item_text features__item_text--09">Suddenly summoned to witness something very great and horrendous, we still keep fighting not to reduce it to our own smallness.</span><a href="#" class="features__item_link">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 09 ==-->
-      <!-- == START OF FEATURES 10 ==-->
-      <div class="features features--10">
-        <div class="container">
-          <div class="row features__row">
-            <div class="col-xs-12 col-lg-4 features__item features__item--10">
-              <div class="features__item_icon_circle features__item_icon_circle--10 features__item_icon_circle--zip-circle-icon"></div>
-              <h3 class="features__item_title features__item_title--10">always precise</h3><span class="features__item_text features__item_text--10">I was never afraid of failure; for I would sooner fail than not be among the most greatest.</span><a href="#" class="features__item_link features__item_link--10">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--10">
-              <div class="features__item_icon_circle features__item_icon_circle--10 features__item_icon_circle--leaf-icon"></div>
-              <h3 class="features__item_title features__item_title--10">soft leather</h3><span class="features__item_text features__item_text--10">Until you're finally ready to look foolish, you'll never have the possibility of being great.</span><a href="#" class="features__item_link features__item_link--10">learn more</a>
-            </div>
-            <div class="col-xs-12 col-lg-4 features__item features__item--10">
-              <div class="features__item_icon_circle features__item_icon_circle--10 features__item_icon_circle--infinity-icon"></div>
-              <h3 class="features__item_title features__item_title--10">minimalism feast</h3><span class="features__item_text features__item_text--10">Nobody can be famous but you can be great, because greatness is determined by service.</span><a href="#" class="features__item_link features__item_link--10">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 10 ==-->
-      <!-- == START OF FEATURES 11 ==-->
-      <div class="features features--11">
-        <div class="features__container--11">
-          <div class="container">
-            <div style="background-image: url(img/bg/bg--white-watches.jpg)" class="features__box--11 features__box--image--11 features__box--image--left--11"></div>
-            <div class="features__box--11 features__box--left-margin--11">
-              <h3 class="features__item_title--11">Soft materials</h3><span class="features__item_text features__item_text--11">Warm genuine leather straps from local supplier comes in two colors: dark and brown. Highly protected glass gives water resistance up to 30 meters.</span><a href="#" class="button button--black">order now</a>
-            </div>
-          </div>
-        </div>
-        <div class="features__container--11">
-          <div class="container">
-            <div class="features__box--11">
-              <h3 class="features__item_title--11">Elegant style</h3><span class="features__item_text features__item_text--11">A sophisticated watch by Simpl Watch, which incorporates perfect functionality while maintaining a stylish appearance. Your watch now represents your individuality.</span><a href="#" class="button button--black">order now</a>
-            </div>
-            <div style="background-image: url(img/bg/bg--black-pair-watches.jpg)" class="features__box--11 features__box--image--11 features__box--image--right--11"></div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF FEATURES 11 ==-->
-
-      <!-- == END OF FEATURES COMPONENTS ==-->
-      <!-- ____________________________-->
-      <!-- == START OF PARTNERS COMPONENTS ==-->
-      <!-- == START OF PARTNERS 01 ==-->
+      <!-- == PARTNERS ==-->
       <div class="partners partners--01">
         <div class="container">
           <h2 class="partners__title partners__title--smaller-margin">Our happy clients</h2><span class="partners__description">Motivating others leads to success whereas inspiring others leads to the most grand greatness.</span>
@@ -1074,92 +523,129 @@
           </div>
         </div>
       </div>
-      <!-- == END OF PARTNERS 01 ==-->
-      <!-- == START OF PARTNERS 02 ==-->
-      <div class="partners partners--02">
-        <div class="container">
-          <h2 class="partners__title">Partners</h2>
-          <div class="row partners__row">
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--wired-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--intel-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--dropbox-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--amd-logo.png" class="partners__img"></div>
-            </div>
+      <!-- == PARTNERS ==-->
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- == START OF COVER 15 ==-->
+      <div class="cover cover--15 js-cover">
+        <!-- == START OF HEADER 11 ==-->
+        <nav class="header header--11">
+          <div class="container header__container">
+            <div class="header__left_box"></div>
+            <div class="header__center_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
+            <div class="header__right_box"></div>
           </div>
-          <div class="row partners__row">
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--nike-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--fast-company-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--casio-logo.png" class="partners__img"></div>
-            </div>
-            <div class="col-xs-6 col-lg-3">
-              <div class="partners__item"><img src="img/pictures/pic--airbnb-logo.png" class="partners__img"></div>
-            </div>
-          </div>
+        </nav>
+        <!-- == END OF HEADER 11 ==-->
+        <div class="cover__content_box--15">
+          <div class="cover__description_box--15"><span class="cover__description_text--15">We design&#8287;<span class="cover__title_text__accent_word">identity&#8287;</span>systems,&#8287;<br>digital&#8287;<span class="cover__title_text__accent_word">platforms&#8287;</span>and brand&#8287;<span class="cover__title_text__accent_word">campaigns&#8287;</span>that&#8287;<br>engage today’s consumer.</span></div>
+        </div>
+        <div class="cover__social_box--15">
+          <ul class="social">
+            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
+            <li class="social__item social__item--equal_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
+          </ul>
         </div>
       </div>
-      <!-- == END OF PARTNERS 02 ==-->
+      <!-- == END OF COVER 15 ==-->
 
-      <!-- == END OF PARTNERS COMPONENTS ==-->
+
+
+
+      <!-- == END OF COVER COMPONENTS ==-->
       <!-- ____________________________-->
-      <!-- == START OF COUNTERS COMPONENTS ==-->
+      <!-- == START OF call_to_action COMPONENTS ==-->
 
-      <!-- == START OF COUNTER 02 ==-->
-      <div class="counter counter--02">
+
+
+      <!-- == START OF call_to_action 05 ==-->
+      <div style="background-image: url(img/bg/bg--mastery.jpg)" class="call_to_action call_to_action--05">
         <div class="container">
-          <h2 class="counter__title--02">Our skills</h2><span class="counter__description--02">And if you love those, those people will be your family because whatever you love will be with you.</span>
+          <h2 class="call_to_action__title call_to_action__title--05">Your most&MediumSpace;<span class="call_to_action__title_text__accent_word">exciting&MediumSpace;</span>journey<br>begins&nbsp;<span class="call_to_action__title_text__accent_word">here&nbsp;</span></h2><a href="#" class="button button--white button--black-shadow">Let’s start</a>
         </div>
-        <div>
-          <div class="counter__skill_item">
-            <div class="counter__skill_item_box"><span class="counter__skill_item_percentage">94%</span>
-              <!--set the data-chart-value attribute value (e.g.: 10)--><svg class="counter__skill_item_chart js-round-chart" data-chart-value="94" width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle id="" stroke="#1B8BF9" stroke-width="6" stroke-linecap="round" fill="none" cx="61" cy="61" r="58"></circle></svg>
+      </div>
+      <!-- == END OF call_to_action 05 ==-->
+
+
+
+
+      <!-- == START OF call_to_action 14 ==-->
+      <div class="call_to_action call_to_action--gray call_to_action--14">
+        <div class="container call_to_action__container">
+          <h2 class="call_to_action__title call_to_action__title--14">Best way to solve any problem</h2><span class="call_to_action__text call_to_action__text--14">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</span>
+          <form id="mc-embedded-subscribe-form" action="//ui-market.us13.list-manage.com/subscribe/post-json?u=c753049c0b6c0ccd061d10786&amp;id=e574a9d387&amp;c=?" method="post" name="mc-embedded-subscribe-form" novalidate="" class="call_to_action__form validate js-subscribe-form">
+            <div id="mc_embed_signup_scroll">
+              <div class="call_to_action__input_box--14">
+                <div class="mc-field-group">
+                  <input id="mce-EMAIL" type="email" required placeholder="Your email" value="" name="EMAIL" class="input input--white call_to_action__input--14 email">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div id="mce-error-response" style="display:none" class="response"></div>
+                  <div id="mce-success-response" style="display:none" class="response"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_c753049c0b6c0ccd061d10786_e574a9d387" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                  <input id="mc-embedded-subscribe" type="submit" value="subscribe" name="subscribe" class="button button--blue button--blue-shadow call_to_action__button--14 js-submit-button">
+                </div>
+                <div class="js-error-message call_to_action__message call_to_action__message--red">Sorry, internal error.</div>
+                <div class="js-success-message call_to_action__message call_to_action__message--green">Thanks!<br>Please click the link in the email we've just sent you.</div>
+              </div>
             </div>
-            <h3 class="counter__skill_item_title">css3 animations</h3>
+          </form>
+        </div>
+      </div>
+      <!-- == END OF call_to_action 14 ==-->
+
+
+
+
+      <!-- == END OF call_to_action COMPONENTS ==-->
+      <!-- ____________________________-->
+      <!-- == START OF FEATURES COMPONENTS ==-->
+
+
+
+      <!-- == START OF FEATURES 04 ==-->
+      <div class="features features--04">
+        <div class="features__container--04">
+          <div class="container">
+            <div style="background-image: url(img/bg/bg--black-bg-man--cropped.jpg)" class="features__box--04 features__box--image--04 features__box--image--left--04"></div>
+            <div class="features__box--04 features__box--left-margin--04">
+              <h3 class="features__item_title--04">Elegant Style</h3><span class="features__item_text features__item_text--04">He knew now that it was his own will to happiness which must make the next move. But if he was to do so, he realized that he must come to terms with time, that to have time was at once the most magnificent.</span><a href="#" class="button button--blue button--blue-shadow">buy now</a>
+            </div>
           </div>
-          <div class="counter__skill_item">
-            <div class="counter__skill_item_box"><span class="counter__skill_item_percentage">81%</span>
-              <!--set the data-chart-value attribute value (e.g.: 10)--><svg class="counter__skill_item_chart js-round-chart" data-chart-value="81" width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle id="" stroke="#1B8BF9" stroke-width="6" stroke-linecap="round" fill="none" cx="61" cy="61" r="58"></circle></svg>
+        </div>
+        <div class="features__container--04">
+          <div class="container">
+            <div class="features__box--04">
+              <h3 class="features__item_title--04">The Highest Quality</h3><span class="features__item_text features__item_text--04">Men love women who are courageous for it means they can go all the way with him in his pursuit of his good dreams and intentions.</span><a href="#" class="button button--blue button--blue-shadow">buy now</a>
             </div>
-            <h3 class="counter__skill_item_title">seo analytics</h3>
-          </div>
-          <div class="counter__skill_item">
-            <div class="counter__skill_item_box"><span class="counter__skill_item_percentage">76%</span>
-              <!--set the data-chart-value attribute value (e.g.: 10)--><svg class="counter__skill_item_chart js-round-chart" data-chart-value="76" width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle id="" stroke="#1B8BF9" stroke-width="6" stroke-linecap="round" fill="none" cx="61" cy="61" r="58"></circle></svg>
-            </div>
-            <h3 class="counter__skill_item_title">web design</h3>
+            <div style="background-image: url(img/bg/bg--headphones-man.jpg)" class="features__box--04 features__box--image--04 features__box--image--right--04"></div>
           </div>
         </div>
       </div>
-      <!-- == END OF COUNTER 02 ==-->
-      <!-- == START OF COUNTERS 03 ==-->
-      <div class="counter counter--03">
-        <div class="container-fluid">
-          <div class="counter__item counter__item--03">
-            <div class="counter__title counter__title--icon-bubbles counter__title--03">clients</div>
-            <div class="counter__number counter__number--03">461</div>
-          </div>
-          <div class="counter__item counter__item--03 counter__item--border">
-            <div class="counter__title counter__title--icon-case counter__title--03">projects</div>
-            <div class="counter__number counter__number--03">12</div>
-          </div>
-          <div class="counter__item counter__item--03">
-            <div class="counter__title counter__title--icon-box counter__title--03">downloads</div>
-            <div class="counter__number counter__number--03">1202</div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF COUNTERS 03 ==-->
+      <!-- == END OF FEATURES 04 ==-->
+
+
+
+
+      <!-- == END OF FEATURES COMPONENTS ==-->
+      <!-- ____________________________-->
+      <!-- == START OF PARTNERS COMPONENTS ==-->
+
       <!-- == END OF COUNTERS COMPONENTS ==-->
       <!-- ____________________________-->
       <!-- == START OF TESTIMONIALS COMPONENTS ==-->
@@ -1210,115 +696,8 @@
         </div>
       </div>
       <!-- == END OF ABOUT 02 ==-->
-      <!-- == START OF ABOUT 03 ==-->
-      <div style="background-image: url(img/bg/bg--city-lights.jpg)" class="about about--03">
-        <div class="container">
-          <div class="row about__row about_row--03">
-            <div class="col-xs-12">
-              <div class="about_content_box about_content_box--03">
-                <h2 class="about__title">Modern technologies</h2><span class="about__text">Our UI/UX researches helped to figure out that the perfect way to charm audience is to keep things clean and simple as much as possible.</span><a href="#" class="button button--blue button--blue-shadow">try NOW</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF ABOUT 03 ==-->
-      <!-- == START OF ABOUT 04 ==-->
-      <div style="background-image: url(img/bg/bg--xiro.jpg)" class="about about--04">
-        <div class="container about_content_box--04">
-          <h2 class="about__title">Xiro Xplorer</h2><span class="about__text about__text--04">XIRO XPLORER V is the newest platform for amateur and professional aerial photography. Modular design, Full HD video, complete automation of the flight!</span>
-        </div>
-      </div>
-      <!-- == END OF ABOUT 04 ==-->
-      <!-- == START OF ABOUT 05 ==-->
-      <div class="about about--05">
-        <div class="container">
-          <h2 class="about__title about__title--05">Process and steps<br>of our workflow</h2>
-        </div>
-        <div class="about__process_box">
-          <button type="button" data-content-index="process_step_1" class="about__process_item about__process_item--play-icon state-active js-content-trigger">
-            <h3 class="about__process_title">concept</h3>
-          </button>
-          <button type="button" data-content-index="process_step_2" class="about__process_item about__process_item--star-icon js-content-trigger">
-            <h3 class="about__process_title">prototyping</h3>
-          </button>
-          <button type="button" data-content-index="process_step_3" class="about__process_item about__process_item--trophy-icon js-content-trigger">
-            <h3 class="about__process_title">web-design</h3>
-          </button>
-          <button type="button" data-content-index="process_step_4" class="about__process_item about__process_item--code-icon js-content-trigger">
-            <h3 class="about__process_title">development</h3>
-          </button>
-          <!--decorative element-->
-          <div class="about__line"></div>
-        </div>
-        <!--the first one is visible by default-->
-        <div data-content-index="process_step_1" style="display:block" class="container about__process_text_box js-content-box">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Our superior mind for freedom is to view others cheerfully. The silence is a synthetic lotus. Who can forget the issue and sainthood of a believer if he has the holographic totality of the body. Paradise is not the unconditional mineral of the doer.</span></div>
-            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Confucius says: the fraternal moon is appearing, the searious karma is growing. The paradox is a holy moon. Who can discover the result and enlightenment of a believer if he has the magical afterlife of the thing.</span></div>
-          </div>
-        </div>
-        <div data-content-index="process_step_2" class="container about__process_text_box js-content-box">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Yes, there is upstairs, it dies with suffering. To some, a seeker is an everything for receiving. Over there of samadhi will daily illuminate a mediocre lama. One remarkable milk i give you: respect each other. Not parallel places or nirvana, emerge the booda-hood.</span></div>
-            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Everything we do is connected with meditation: vision, dimension, density, ascension. Not paradise or meaningless places, realize the harmony. Occur and you will be discovered sincerely. Be soft. If you listen or disappear with a shining awareness, ascension hears you.</span></div>
-          </div>
-        </div>
-        <div data-content-index="process_step_3" class="container about__process_text_box js-content-box">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">Karmas, bodies, and inner lovers will always protect them. Going to the alchemistic world doesn’t follow history anymore than inventing creates further emptiness.</span></div>
-            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Always truly synthesise the meaningless ego. Be abstruse. The explosion of the booda-hood has control, but not everyone praises it. When the therapist of stigma develops the lights of the creator, the totality will know lord. The visitor has truth, but not everyone follows it.</span></div>
-          </div>
-        </div>
-        <div data-content-index="process_step_4" class="container about__process_text_box js-content-box">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 col-xs-6"><span class="about__text about__text--05">To some, a cow is a stigma for realizing. Be unconditional. Silence, enlightenment and a hermetic mind. The underworld is full of resurrection. To some, a yogi is an art for yearning. One must capture the therapist in order to desire the aspect of hermetic awareness.</span></div>
-            <div class="col-lg-4 col-xs-6"><span class="about__text about__text--05">Be sincere. The love is a psychic master. To some, a creator is a suffering for believing. I listen and i sit. i convert and i preach. i rise and i balance.</span></div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF ABOUT 05 ==-->
-      <!-- == START OF ABOUT 06 ==-->
-      <div style="background-image: url(img/bg/bg--backgrounded-macbook.jpg)" class="about about--06">
-        <div class="container about__container--06">
-          <div class="about__title_box--06">
-            <h2 class="about__title about__title--06">The new generation<br>UI kit for professionals</h2><span class="about__description--06">Simplicity is the keynote of all true elegance. A great man is always willing to be very little.</span>
-          </div>
-          <div class="row about__row--06">
-            <div class="col-md-6 col-lg-3 about__feature_item--06">
-              <div class="about__item_icon--06 about__feature_icon--heart-icon--blue"></div>
-              <h3 class="about__feature_item_title--06">flexible code</h3><span class="about__item_text--06">You are not permitted to live and die as a non-entity because you have encountered the greatness that is associated with Christ.</span><a href="#" class="about__item_link">learn more</a>
-            </div>
-            <div class="col-md-6 col-lg-3 about__feature_item--06">
-              <div class="about__item_icon--06 about__feature_icon--zip-icon--blue"></div>
-              <h3 class="about__feature_item_title--06">easy grid</h3><span class="about__item_text--06">The male orientation of classical Athens was inseparable from genius. Athens were great despite but because of its men.</span><a href="#" class="about__item_link">learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF ABOUT 06 ==-->
-      <!-- == START OF ABOUT 07 ==-->
-      <div class="about about--07">
-        <div class="container">
-          <h2 class="about__title about__title--07">About</h2>
-          <div style="background-image: url(img/bg/bg--bright-room.jpg)" class="about__container--07">
-            <div class="about__content--07">
-              <div class="about__content__top_row--07">
-                <h3 class="about__subtitle--07 about__main_subtitle--07">history</h3><span class="about__main_info--07">Phoenix is available on the iPhone, Android and the Windows Phone. With hectic schedules and long to do lists, managing the day to day for your family can feel like a full time job. Phoenix's here to help! Whether you're making dinner plans, coordinating carpools.</span>
-              </div>
-              <div class="about__content__bottom_row--07">
-                <div class="about__feature--07 about__feature_icon--trophy-icon--blue">
-                  <h3 class="about__subtitle--07">Peace of Mind</h3><span class="about__main_info--07">Part location, part communication, all awesome. Phoenix keeps millions of families and close friends connected, no matter what chaos life throws their way.</span>
-                </div>
-                <div class="about__feature--07 about__feature_icon--copy-icon--blue">
-                  <h3 class="about__subtitle--07">CROSS PLATFORM</h3><span class="about__main_info--07">With Phoenix, just open the app and instantly see everyone in your private Circle on the map.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF ABOUT 07 ==-->
+
+
 
       <!-- == END OF ABOUT COMPONENTS ==-->
       <!-- ____________________________-->
@@ -1328,7 +707,7 @@
         <div class="container contents__container--01">
           <div class="contents__image_box--01"><img src="img/pictures/pic--hovering-phones.png" class="contents__image--01"></div>
           <div class="contents__content_box--01">
-            <h3 class="contents__title--01">Modern technologies</h3><span class="contents__text--01">A man's life is interesting primarily when he has totaly failed down. I well know it. For its a sign that he well tried to surpass himself..</span><a href="#" class="button button--icon-apple--black button--white button--gray-shadow">download</a>
+            <h3 class="contents__title--01">Tecnologie moderne</h3><span class="contents__text--01">A man's life is interesting primarily when he has totaly failed down. I well know it. For its a sign that he well tried to surpass himself..</span><a href="#" class="button button-black button--white button--gray-shadow">scarica</a>
           </div>
         </div>
       </div>
@@ -1364,148 +743,20 @@
         </div>
       </div>
       <!-- == END OF CONTENTS 04 ==-->
-      <!-- == START OF CONTENTS 05 ==-->
-      <div style="background-image: url(img/bg/bg--black-bg-man.jpg)" class="contents contents--05">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-lg-6">
-              <h2 class="contents__title--05">Great details</h2><span class="contents__text--05">There are times when the world is rearranging itself, and, well, at times like that, the right words can change the whole world.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF CONTENTS 05 ==-->
+
       <!-- == END OF CONTENTS COMPONENTS ==-->
       <!-- ____________________________-->
       <!-- == START OF TEAM COMPONENTS ==-->
-      <!-- == START OF TEAM 01 ==-->
-      <div class="team team--01">
-        <h2 class="team__title">Our team</h2>
-        <div data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: false, &quot;cssEase&quot;: &quot;linear&quot;, &quot;centerMode&quot;: true, &quot;infinite&quot;: true, &quot;focusOnSelect&quot;: true, &quot;dots&quot;: true, &quot;arrows&quot;: false, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 900, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}]}" class="team__box team__box--01 js-slider">
-          <div class="team__item team__item--01">
-            <div style="background-image:url(img/pictures/pic--musk.jpg)" class="team__item_photo"></div><span class="team__item_text">A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.</span><span class="team__item_name">Elon Musk</span><span class="team__item_job">CEO</span>
-          </div>
-          <div class="team__item team__item--01">
-            <div style="background-image:url(img/pictures/pic--tobias.jpg)" class="team__item_photo"></div><span class="team__item_text">The truth is the best life is full of joy and full of great fun, know, you always can have one without the other.</span><span class="team__item_name">tobias van schneider</span><span class="team__item_job">Art director</span>
-          </div>
-          <div class="team__item team__item--01">
-            <div style="background-image:url(img/pictures/pic--doe.jpg)" class="team__item_photo"></div><span class="team__item_text">Whatever you do, you need courage. Whatever course you decide, there is always someone to tell you are wrong.</span><span class="team__item_name">Dima Blover</span><span class="team__item_job">UI/UX designer</span>
-          </div>
-          <div class="team__item team__item--01">
-            <div style="background-image:url(img/pictures/pic--ive.png)" class="team__item_photo"></div><span class="team__item_text">Who can acquire the booda-hood and suffering of a lotus if he has the ancient paradox of the sun never again.</span><span class="team__item_name">Jony Ive</span><span class="team__item_job">Sales</span>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF TEAM 01 ==-->
+
 
       <!-- == END OF TEAM COMPONENTS ==-->
       <!-- ____________________________-->
       <!-- == START OF WORKS COMPONENTS ==-->
-      <!-- == START OF WORKS 01 ==-->
-      <div class="works works--01">
-        <div class="container">
-          <div class="works__title_box">
-            <div class="works__title">Our projects</div>
-            <div class="works__text">Play with colors, animations and content. Enjoy our friendly in few minutes with Phoenix UI kit.</div>
-          </div>
-        </div>
-        <div class="works__row works__row--01"><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-1.jpg)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">Phoenix ui kit</h3><span class="works__item_tags--01">Web-design, Front-end</span>
-            </div></a><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-2.png)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">universe cd cover</h3><span class="works__item_tags--01">Graphic design</span>
-            </div></a><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-3.jpg)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">Brut template</h3><span class="works__item_tags--01">Web-design, Front-end</span>
-            </div></a><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-4.jpg)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">UI-market</h3><span class="works__item_tags--01">Web-design, Front-end</span>
-            </div></a></div>
-        <div class="works__row works__row--01 state-hidden-works-row"><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-5.jpg)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">404 page</h3><span class="works__item_tags--01">Web-design</span>
-            </div></a><a href="#" class="works__item works__item--01">
-            <div style="background-image: url(img/pictures/pic--case-6.png)" class="works__item_img works__item_img--01"></div>
-            <div class="works__item_text_box--01">
-              <h3 class="works__item_title--01">Phoenix cover</h3><span class="works__item_tags--01">Art Direction, Concept</span>
-            </div></a></div>
-        <button class="works__show_more_button--01 button button--border-black js-show-more-works">view more</button>
-      </div>
-      <!-- == END OF WORKS 01 ==-->
-      <!-- == START OF WORKS 02 ==-->
-      <div class="works works--02">
-        <div class="works__title_box">
-          <div class="works__title">Our best works</div>
-          <ul class="works__filter_tags">
-            <!-- For filtering controls add-->
-            <li class="works__filter_tags__item">
-              <button type="button" data-filter="all" class="button button--black button--extra-small js-filtering-button">Show all</button>
-            </li>
-            <li class="works__filter_tags__item">
-              <button type="button" data-filter="2" class="button button--gray button--extra-small js-filtering-button">development</button>
-            </li>
-            <li class="works__filter_tags__item">
-              <button type="button" data-filter="3" class="button button--gray button--extra-small js-filtering-button">illustration</button>
-            </li>
-            <li class="works__filter_tags__item">
-              <button type="button" data-filter="1" class="button button--gray button--extra-small js-filtering-button">design</button>
-            </li>
-          </ul>
-          <div class="works__row">
-            <div class="filtr-container works__container--02"><a data-category="2" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-1.jpg)" class="works__item_img works__item_img--02"></div></a><a data-category="1, 2" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-2.png)" class="works__item_img works__item_img--02"></div></a><a data-category="2, 3" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-3.jpg)" class="works__item_img works__item_img--02"></div></a><a data-category="1, 2" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-4.jpg)" class="works__item_img works__item_img--02"></div></a><a data-category="2, 3" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-5.jpg)" class="works__item_img works__item_img--02"></div></a><a data-category="1, 2" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-6.jpg)" class="works__item_img works__item_img--02"></div></a><a data-category="1" href="#" class="filtr-item works__item works__item--02">
-                <div style="background-image: url(img/pictures/pic--case-7.jpg)" class="works__item_img works__item_img--02"></div></a></div>
-          </div>
-        </div>
-      </div>
-      <!-- == END OF WORKS 02 ==-->
-      <!-- == START OF WORKS 03 ==-->
-      <div class="works works--03">
-        <div class="container">
-          <div class="works__title_box">
-            <div class="works__title">Gallery</div>
-            <div class="works__text">Play with colors, animations and content. Enjoy your project in a few minutes with Phoenix UI kit.</div>
-          </div>
-        </div>
-        <div data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: false, &quot;cssEase&quot;: &quot;linear&quot;, &quot;arrows&quot;: false, &quot;centerMode&quot;: false, &quot;focusOnSelect&quot;: true, &quot;variableWidth&quot;: true, &quot;autoplay&quot;: false, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;centerMode&quot;: true}}]}" class="works__slider js-slider">
-          <!--please keep the data-lightbox attribute value the same across all the items-->
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-13.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-13.jpg" class="works__item_picture--03"></a></div>
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-14.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-14.jpg" class="works__item_picture--03"></a></div>
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-15.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-15.jpg" class="works__item_picture--03"></a></div>
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-13.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-13.jpg" class="works__item_picture--03"></a></div>
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-14.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-14.jpg" class="works__item_picture--03"></a></div>
-          <div class="works__item works__item--03"><a href="img/pictures/pic--case-15.jpg" data-lightbox="works" class="works__item__link"><img src="img/pictures/pic--case-15.jpg" class="works__item_picture--03"></a></div>
-        </div>
-      </div>
-      <!-- == END OF WORKS 03 ==-->
-      <!-- == START OF WORKS 04 ==-->
-      <div class="works works--04">
-        <div class="works__title_box">
-          <div class="works__title">Portfolio</div>
-        </div>
-        <div class="works__row">
-          <!--please keep the data-lightbox attribute value the same across all the items--><a href="img/pictures/pic--case-9.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--big-square--04">
-            <div style="background-image: url(img/pictures/pic--case-9.jpg)" class="works__item_img works__item_img--big-square--04 js-work-item"></div></a><a href="img/pictures/pic--case-10.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--rect--04">
-            <div style="background-image: url(img/pictures/pic--case-10.jpg)" class="works__item_img works__item_img--rect--04 js-work-item"></div></a>
-          <div class="works__box--04"><a href="img/pictures/pic--case-11.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--small-square--04">
-              <div style="background-image: url(img/pictures/pic--case-11.jpg)" class="works__item_img works__item_img--small-square--04 js-work-item"></div></a><a href="img/pictures/pic--case-12.jpg" data-lightbox="portfolio" class="works__item works__item--04 works__item--small-square--04">
-              <div style="background-image: url(img/pictures/pic--case-12.jpg)" class="works__item_img works__item_img--small-square--04 js-work-item"></div></a></div>
-        </div>
-      </div>
-      <!-- == END OF WORKS 04 ==-->
-      <!-- == END OF WORKS COMPONENTS ==-->
-      <!-- ____________________________-->
+
+
+
+
+
       <!-- == START OF FOOTERS COMPONENTS ==-->
 
 
@@ -1514,63 +765,32 @@
 
       <!-- ____________________________-->
       <!-- == START OF PRICE PLANS COMPONENTS ==-->
-      <!-- == START OF contacts 01 ==-->
-      <div class="contacts contacts--01">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 contacts_info_column--01">
-              <div class="contacts__info--01">
-                <h2 class="contacts__title contacts__title--01">Contacts</h2>
-                <div class="contacts__content--01">
-                  <div class="contacts__item">
-                    <h3 class="contacts__item_title">Address</h3><span class="contacts__item_text">350 5th Ave<br>Floor 54<br>New York, NY, 10118</span>
-                  </div>
-                  <div class="contacts__item">
-                    <h3 class="contacts__item_title">Phone</h3><span class="contacts__item_text">+1 646 398-8084</span>
-                  </div>
-                  <div class="contacts__item">
-                    <h3 class="contacts__item_title">email</h3><a href="mailto:hello@ui-market.com" target="_blank" class="contacts__item_text">hello@ui-market.com</a>
-                  </div>
-                </div>
-              </div>
-              <ul class="social">
-                <li class="contacts__social_item--01 social__item"><a href="https://twitter.com/ui_market" target="_blank" class="social__link social__link--rounded social__link--twitter--black"></a></li>
-                <li class="contacts__social_item--01 social__item"><a href="https://www.facebook.com/uimarket.official/" target="_blank" class="social__link social__link--rounded social__link--facebook--black"></a></li>
-                <li class="contacts__social_item--01 social__item"><a href="https://www.behance.net/uimarket" target="_blank" class="social__link social__link--rounded social__link--behance--black"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="contacts__map_box--01">
-          <div data-zoom="14" data-center-lat="40.7306149" data-center-lng="-73.9897637" data-pin-lat="40.7306149" data-pin-lng="-73.9897637" class="contacts__map js-map"></div>
-        </div>
-      </div>
-      <!-- == END OF contacts 01 ==-->
 
-      <!-- == START OF contacts 03 ==-->
+
+      <!-- == CONTATTI ==-->
       <div class="contacts contacts--03">
         <div class="contacts__map_box--03">
-          <div data-zoom="14" data-center-lat="40.855" data-center-lng="-73.885" data-pin-lat="40.8654697" data-pin-lng="-73.8938313" class="contacts__map js-map"></div>
+          <div data-zoom="14" data-center-lat="44.831" data-center-lng="11.636" data-pin-lat="44.831599" data-pin-lng="11.636442" class="contacts__map js-map"></div>
         </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-12 col-lg-offset-6 col-md-offset-0">
               <div class="contacts__info--03">
-                <h2 class="contacts__title contacts__title--03">Contacts</h2>
+                <h2 class="contacts__title contacts__title--03">Contatti</h2>
                 <div class="contacts__content--03">
                   <div class="contacts__item contacts__item--03">
-                    <h3 class="contacts__item_title">Office</h3><span class="contacts__item_text">250 Bedford Park Blvd W,<br>New York, NY, 10468</span>
+                    <h3 class="contacts__item_title">Ufficio</h3><span class="contacts__item_text">Via Caldirolo 84,<br>Ferrara, FE, 44100</span>
                   </div>
                   <div class="contacts__item contacts__item--03">
-                    <h3 class="contacts__item_title">Phone numbers</h3><span class="contacts__item_text">+1 646 245-2910<br>+1 646 245-2920</span>
+                    <h3 class="contacts__item_title">Telefono</h3><span class="contacts__item_text">+39 0532 74.44.63<br>+39 0532 74.44.63</span>
                   </div>
                 </div>
                 <div class="contacts__content--03">
                   <div class="contacts__item contacts__item--03">
-                    <h3 class="contacts__item_title">sales email</h3><span class="contacts__item_text">John Daves</span><br><a href="mailto:sales@ui-market.com" target="_blank" class="contacts__item_text">sales@ui-market.com</a>
+                    <h3 class="contacts__item_title">Email</h3><span class="contacts__item_text">John Daves</span><br><a href="mailto:sales@ui-market.com" target="_blank" class="contacts__item_text">sales@ui-market.com</a>
                   </div>
                   <div class="contacts__item contacts__item--03">
-                    <h3 class="contacts__item_title">support email</h3><span class="contacts__item_text">Vincent Vega</span><br><a href="mailto:support@ui-market.com" target="_blank" class="contacts__item_text">support@ui-market.com</a>
+                    <h3 class="contacts__item_title">Email di supporto</h3><span class="contacts__item_text">Vincent Vega</span><br><a href="mailto:support@ui-market.com" target="_blank" class="contacts__item_text">support@ui-market.com</a>
                   </div>
                 </div>
               </div>
@@ -1578,7 +798,7 @@
           </div>
         </div>
       </div>
-      <!-- == END OF contacts 03 ==-->
+      <!-- == CONTATTI ==-->
 
       <!-- == END OF PRICE PLANS COMPONENTS ==-->
       <!-- ____________________________-->
@@ -1587,22 +807,18 @@
       <footer style="background-image: url(img/bg/bg--mountains-ocean.jpg)" class="footer footer--06">
         <div class="footer__main_box--06">
           <div class="container footer__container">
-            <div class="footer__left_box--06"><a href="#" class="footer__logo_box footer__logo_box--06"><img src="img/etc/logo--circle--white.svg" class="footer__logo footer__logo--06"><span class="footer__logo_text">Phoenix</span></a><span class="footer__description footer__description--06">Our UI/UX researches helped to figure out that the perfect way to charm audience is to keep things clean and simple as much as possible.</span><a href="#" class="button--store footer__button--06"><img src="img/etc/button--app-store.svg" class="button__image"></a>
+            <div class="footer__left_box--06"><a href="#" class="footer__logo_box footer__logo_box--06"><img src="img/etc/logo--circle--white.svg" class="footer__logo footer__logo--06"><span class="footer__logo_text">Tecnograph</span></a><span class="footer__description footer__description--06">Our UI/UX researches helped to figure out that the perfect way to charm audience is to keep things clean and simple as much as possible.</span>
               <ul class="social">
                 <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
                 <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
-                <li class="social__item social__item--left_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
               </ul>
             </div>
             <div class="footer__right_box--06">
               <ul class="footer__menu footer__menu--06">
                 <li class="footer__menu__item"><span class="footer__menu__title">about</span></li>
                 <li class="footer__menu__item"><a href="#" class="footer__menu__link">About</a></li>
-                <li class="footer__menu__item"><a href="#" class="footer__menu__link">Tour</a></li>
                 <li class="footer__menu__item"><a href="#" class="footer__menu__link">Services</a></li>
-                <li class="footer__menu__item"><a href="#" class="footer__menu__link">Pricing</a></li>
                 <li class="footer__menu__item"><a href="#" class="footer__menu__link">Team</a></li>
-                <li class="footer__menu__item"><a href="#" class="footer__menu__link">Shop</a></li>
                 <li class="footer__menu__item"><a href="#" class="footer__menu__link">Apps</a></li>
               </ul>
               <ul class="footer__menu footer__menu--06">
@@ -1626,11 +842,11 @@
         <div class="footer__description_box--06">
           <div class="container footer__container">
             <ul class="footer__submenu--06">
-              <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">Terms and Conditions</a></li>
+              <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">Termini e Condizioni</a></li>
               <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">Privacy Policy</a></li>
-              <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">Licenses</a></li>
+              <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">Licenze</a></li>
               <li class="footer__submenu__item--06"><a href="#" class="footer__submenu__link--06">FAQ</a></li>
-            </ul><span class="footer__copyright footer__copyright--06">&copy; UI-market.com, 2016</span>
+            </ul><span class="footer__copyright footer__copyright--06">&copy; Tecnograph Group, 2016</span>
           </div>
         </div>
       </footer>
